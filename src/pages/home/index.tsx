@@ -140,7 +140,7 @@ export function Home(){
                                     className={styles.logo}
                                     src={`https://assets.coincap.io/assets/icons/${coin.symbol.toLocaleLowerCase()}@2x.png`} alt="cripto coin img" />    
                                      <Link to={`/details/${coin.id}`}>
-                                      <span>{coin.name}</span>
+                                      <span>{coin.name} </span>
                                         | {coin.symbol}
                                       </Link>
                                   </div>
